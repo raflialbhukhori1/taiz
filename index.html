@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE NILAI</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #dbe7d5; /* Warna hijau muda */
+            color: #333; /* Warna teks hitam */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #1a237e; /* Warna biru tua */
+            margin-bottom: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #f2ede9; /* Warna krem muda */
+            margin-top: 20px;
+            border: 2px solid #4c6b5b; /* Warna hijau tua */
+        }
+
+        table th, table td {
+            border: 1px solid #4c6b5b; /* Warna hijau tua */
+            padding: 10px;
+            text-align: center;
+        }
+
+        table th {
+            background-color: #1a237e; /* Warna biru tua */
+            color: #ffffff; /* Warna teks putih */
+        }
+
+        table td {
+            background-color: #dbe7d5; /* Warna hijau muda */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hasil Tabelku</h1>
+
+        <table>
+            <tr>
+                <th colspan="2">Hari</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Senin</td>
+                <td>Rabu</td>
+            </tr>
+            <tr>
+                <td>Kamis</td>
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td>Sabtu</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
